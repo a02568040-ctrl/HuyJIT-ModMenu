@@ -3,7 +3,7 @@
 
 namespace ImGui {
     struct ImVec2 { float x, y; ImVec2() : x(0), y(0) {} ImVec2(float _x, float _y) : x(_x), y(_y) {} };
-    struct ImVec4 { float x, y, z, w; ImVec4() : x(0), y(0), z(0), w(0) {} ImVec4(float _x, float _y, float _z, float _w) : x(_x), y(_y), z(_z), w(_w) {} };
+    struct ImVec4 { float x, y, z, w; ImVec4() : x(0), y(0), z(0), w(0) {} ImVec4(float _x, float _y, float _z, float _w) : x(_x), y(_y), z(_z), w(_w) {} };.
     
     enum Cond { FirstUseEver = 1 << 0 };
     enum WindowFlags { NoCollapse = 1 << 1, NoResize = 1 << 2 };
